@@ -1,9 +1,5 @@
 models:
-| name | model ref | quant | eval rate token/s |
-
+| name | quant | total duration(s) - ollama | total duration(s) - mlx |
 | --- | --- | --- | --- |
+|Mistral-7B-Instruct-v0.3-4bit |  4bit | 28.3 | 17.8 |
 
-|qwen2.5:7b | ollama pull qwen2.5:7b | 4bit | 37.25 |
-|qwen2.5:14b | ollama pull qwen2.5:14b| 4bit | 19.97 |
-|qwen2.5:32b | ollama pull qwen2.5:32b| 4bit | 10.3 |
-|qwen2.5:72b | ollama pull qwen2.5:72b| 4bit | 4.61 |
