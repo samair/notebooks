@@ -1,5 +1,5 @@
 models:
-| name | quant | total duration(s) - ollama | total duration(s) - mlx |
+| name | quant | tokens-per-sec - ollama | tokens-per-sec - mlx |
 | --- | --- | --- | --- |
-|Mistral-7B-Instruct-v0.3-4bit |  4bit | 28.3 | 17.8 |
+|Qwen3-1.7B-4bit |  4bit | 58.2 | 76.73 |
 
